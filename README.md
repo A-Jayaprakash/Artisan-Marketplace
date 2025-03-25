@@ -1,51 +1,51 @@
 # Artisan Marketplace: The Problem
 
-Why This Matters:
+## Why This Matters:
 
-Cultural Extinction: 1 traditional artisan quits every 10 minutes in India alone (UNESCO).
+1) **Cultural Extinction**: 1 traditional artisan quits every 10 minutes in India alone (UNESCO).
 
-Exploitation: Middlemen take 60-80% of profits (e.g., Moroccan rug weavers earn $3/day).
+2) **Exploitation**: Middlemen take 60-80% of profits (e.g., Moroccan rug weavers earn $3/day).
 
-Market Access: 70% of artisans lack digital sales channels (World Crafts Council).
+3) **Market Access**: 70% of artisans lack digital sales channels (World Crafts Council).
 
-Current Solutions Fail Because:
+## Current Solutions Fail Because:
 
-Etsy/Amazon favor mass-produced goods.
+1. Etsy/Amazon favor mass-produced goods.
 
-Fair-trade brands mark up prices 10x but don’t share profits transparently.
+2. Fair-trade brands mark up prices 10x but don’t share profits transparently.
 
 
 
-💡 Solution: A Next-Gen Marketplace
+## 💡 Solution: A Next-Gen Marketplace
 
-Core Features:
-AI Dynamic Pricing
+### Core Features
+#### 1. AI Dynamic Pricing
 
-Algorithm adjusts prices based on: 
-*Living wage data (e.g., "This basket requires 8 hours → min. price = $45").
-*Demand forecasting (e.g., Diwali → +30% on hand-painted lamps).
+**Algorithm adjusts prices based on**:
+Living wage data (e.g., "This basket requires 8 hours → min. price = $45").
+Demand forecasting (e.g., Diwali → +30% on hand-painted lamps).
 
-Tech: Python (scikit-learn) + ILO wage datasets.
+**Tech**: Python (scikit-learn) + ILO wage datasets.
 
-AR "Maker Stories"
-Scan a product → AR overlay shows the artisan crafting it + voice narration.
-Tech: Unity 3D + Apple Vision Pro/ARKit.
+**2. AR "Maker Stories"**
 
-Blockchain Provenance
+**Scan a product** → AR overlay shows the artisan crafting it + voice narration.
 
-Each item has an NFT-like digital passport showing:
+**Tech**: Unity 3D + Apple Vision Pro/ARKit.
 
+**3. Blockchain Provenance**
+
+Each item has an NFT-like digital passport showing: 
 Materials sourced (e.g., "Organic cotton from Gujarat").
-
 % of profit going to the maker (e.g., "65% to Fatima, 10% to dyer").
 
-Tech: Ethereum/Polygon + QR codes.
+**Tech**: Ethereum/Polygon + QR codes.
 
-Bulk Order Collective Bidding
+**4. Bulk Order Collective Bidding**
 
 Artisans form DAOs to bid on large orders (e.g., hotel chain needs 500 rugs).
 
-Tech: Aragon DAO framework + Stripe Connect.
+**Tech**: Aragon DAO framework + Stripe Connect.
 
 🛠️ Tech Stack
 Layer	Tools
