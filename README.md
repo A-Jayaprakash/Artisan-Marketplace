@@ -225,4 +225,137 @@ For Investors: Taps into the $700B ethical consumerism market.
 
 
 
+Phase 1: Pre-Hackathon Prep (1-2 Days Before)
+1. Define Your Core Hackathon Demo
+Since you can’t build everything, pick 1-2 "wow" features to demo. Recommended combo:
 
+AI Dynamic Pricing (algorithmic fairness = unique selling point).
+
+AR Maker Story (visually impressive for judges).
+
+2. Gather Assets
+Artisan Data:
+
+Use fake but realistic data for AI pricing (e.g., "Oaxacan rug: 8 hours labor, local min wage = 
+5
+/
+d
+a
+y
+→
+m
+i
+n
+p
+r
+i
+c
+e
+=
+5/day→minprice=40").
+
+Source artisan photos/videos from free sites like Pexels (search "weaver," "potter").
+
+Tech Tools:
+
+Frontend: Next.js + TailwindCSS (quick UI).
+
+AR: Spark AR (no-code) or Unity + ARFoundation (if coders).
+
+AI: Google Colab (pre-built scikit-learn notebook).
+
+3. Team Roles (If Applicable)
+Hacker 1: Frontend (Next.js product listings).
+
+Hacker 2: AR integration (Spark AR/Unity).
+
+Hacker 3: AI pricing model (Python notebook).
+
+Hacker 4: Pitch deck/storytelling.
+
+Phase 2: Hackathon Execution (Day 1-2)
+1. Build the Barebones Marketplace (4-6 Hours)
+Tool: Next.js + Vercel (instant deployment).
+
+Features:
+
+Product listing page (mock 5-10 items).
+
+"Scan for AR Story" button (link to your AR prototype).
+
+AI Price Tag: Hardcode example:
+
+python
+Copy
+# Pseudo-code for demo (real version uses scikit-learn)
+def calculate_price(hours, country):
+  wages = {"India": 3, "Mexico": 5, "Morocco": 4}  # $/day
+  return hours * (wages[country] / 8) * 2  # 2x multiplier for materials
+Display: "This rug: $45 (8 hours @ fair wage in Mexico)".
+
+2. Create the AR Experience (4-5 Hours)
+Option A (No-Code):
+
+Use Spark AR or Adobe Aero to overlay a pre-recorded video of an artisan working.
+
+Trigger via QR code on your product page.
+
+Option B (Code):
+
+Unity + ARFoundation: Place a 3D loom/animated hands over a product image.
+
+WebXR: Browser-based AR (no app install).
+
+3. Fake the AI (2-3 Hours)
+Demo Hack: Pre-calculate prices for your 10 mock products using a Colab notebook.
+
+Judges Love This: Show the notebook and say, "This scales to 50K artisans with real ILO data!"
+
+Phase 3: Polish & Pitch (Final Day)
+1. The "Wow" Demo Flow
+Show the marketplace (Next.js site).
+
+Click on a product → reveal AI-calculated price.
+
+Scan QR code → launch AR artisan story.
+
+Drop the mic: "This is the future of ethical commerce."
+
+2. Pitch Deck Essentials (5 Slides)
+Problem: "Artisans earn $3/day while middlemen profit."
+
+Solution: "AI pricing + AR stories = radical transparency."
+
+Demo: Screenshot of your AR scan + pricing algo.
+
+Differentiation: "We’re the anti-Etsy—see the maker, pay the maker."
+
+Ask: "We need partnerships with NGOs to scale."
+
+3. Anticipate Judges’ Questions
+"How is this sustainable?"
+→ "10% commission covers hosting; AR content is crowdsourced by NGOs."
+
+"Why not just use Instagram?"
+→ "Instagram doesn’t enforce fair pricing or collective bargaining."
+
+Hackathon Hacks (Cheat Codes)
+Steal UI: Copy a Shopify theme’s HTML/CSS, then modify.
+
+Pre-Record AR: If live AR fails, play a screen recording.
+
+Fake Blockchain: Use a mock Polygon scan URL (e.g., "View this transaction on Etherscan").
+
+Tools & Resources
+Task	Tools
+Frontend	Next.js, TailwindCSS, Vercel
+AR	Spark AR (no-code), Unity + ARFoundation (pro)
+AI	Google Colab + scikit-learn
+Design	Figma (UI), Canva (pitch deck)
+Data	Mock ILO wage datasets (Kaggle)
+Final Tip: Story > Code
+Judges remember emotion more than tech stacks.
+
+Show a photo of a real artisan (even if fake for the demo).
+
+Say: "Meet Fatima. This platform lets her earn what she deserves."
